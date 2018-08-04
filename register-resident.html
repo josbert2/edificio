@@ -1,0 +1,201 @@
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="css/app.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
+    <link rel="stylesheet" href="https://ionicons.com/css/ionicons.min.css"/>
+    <!-- Librerias-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+    <title>Edificio</title>
+  </head>
+  <body class="app-js register-form">
+    <header class="nav" id="nav">
+      <div class="nav-menu">
+        <ul id="menu-items">
+          <div class="menu-logo mr-auto">
+            <li class="logo"><a class="no-after" href="#home1" onclick="javascript:location.href='/..'"><img class="logo-nav" src="img/hotel.svg" alt=""/></a><a class="no-after" href="#home2" onclick="javascript:location.href='/..'">
+                <h2>Motto <br class="br"/>Apartments</h2></a>
+              <div class="btn-mobile ml-auto">
+                <div class="wrapper-menu">
+                  <div class="line-menu half start"></div>
+                  <div class="line-menu"></div>
+                  <div class="line-menu half end"></div>
+                </div>
+              </div>
+            </li>
+            <nav class="menu">
+              <div class="menu__brand" style="background-image: url(http://windsor.themerex.net/wp-content/uploads/2016/07/bg_header.jpg)"><a href="#img">
+                  <div class="logo-mm" style="background-image: url(http://windsor.themerex.net/wp-content/uploads/2016/07/bg_header.jpg);"></div></a></div>
+              <ul class="menu__list">
+                <li class="menu__item"><a class="menu__link" href="#home" onclick="javascript:location.href='index.html'">Home</a></li>
+                <li class="nav-item"><a class="draw" href="#register" onclick="javascript:location.href='register-resident.html'">Register</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="menu-li">
+            <li class="nav-item"><a class="draw" href="/..">Home</a></li>
+            <li class="nav-item"><a class="draw" href="#faq" onclick="javascript:location.href='userful-forms.html'">By-law and useful forms</a></li>
+          </div>
+        </ul>
+      </div>
+    </header>
+    <div class="m-t-50" style="    height: 1;"></div>
+    <div class="container m-t-100">
+      <div class="content">
+        <div class="content">
+          <div class="bg-white">
+            <div class="form">
+              <div class="row">
+                <div class="col-md-12">
+                  <h2 class="title-h2">Resident Registration</h2>
+                  <h4 class="ghost-h2">* NOTE: Items with a red * requires an entry</h4>
+                  <hr class="hr-style"/>
+                </div>
+                <div class="col-md-12 m-t-15">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <h3 class="title-h2">PERSONAL NAME</h3>
+                          <label>Full Name:</label>
+                        </div>
+                        <div class="col-md-6">
+                          <input type="text" placeholder="Full Name"/>
+                        </div>
+                        <div class="col-md-6">
+                          <input type="text" placeholder="Last Name"/>
+                        </div>
+                        <div class="col-md-12">
+                          <label>Date:</label>
+                          <input data-toggle="datepicker"/>
+                        </div>
+                        <div class="col-md-12">
+                          <label>Unit/Terrace No:</label>
+                          <input id="number" type="text" placeholder="eg: 2001" style="margin-bottom: 0"/><small style="    margin-bottom: 1.5rem;display:block">Unit or Terrace Number ONL</small>
+                        </div>
+                        <div class="col-md-12">
+                          <label>Building Address: </label><div class="custom-select" style="margin-bottom: 1.5rem;">
+<select>
+<option value="0">Select car:</option>
+<option value="1">Audi</option>
+<option value="2">BMW</option>
+<option value="3">Citroen</option>
+<option value="4">Ford</option>
+<option value="5">Honda</option>
+<option value="6">Jaguar</option>
+<option value="7">Land Rover</option>
+<option value="8">Mercedes</option>
+<option value="9">Mini</option>
+<option value="10">Nissan</option>
+<option value="11">Toyota</option>
+<option value="12">Volvo</option>
+</select>
+</div>
+                        </div>
+                        <div class="col-md-12">
+                          <label>Mobile:</label>
+                          <input type="text" maxlength="10" id="number"/>
+                        </div>
+                        <div class="col-md-12">
+                          <label>Email:</label>
+                          <input type="email"/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <h3 class="title-h2">OWNER OR TENANT    </h3>
+                      <label>Owner Or Tenant?</label>
+                      <div class="custom-select" style="margin-bottom: 1.5rem;"><select>
+<option value="0">Select Owner:</option>
+<option value="1">Owner</option>
+<option value="1">Tenant</option>
+</select>
+                      </div>
+                      <h3 class="title-h2">SECURITY FOB/SWIPE REGISTER</h3>
+                      <p style="font-size: 12px;">Please add the codes which are located on the fob/swipe which you use to access the building and your level via the lift.</p>
+                      <p style="font-size: 12px;">Please contact building management if there is no number on your security device</p>
+                      <label>Numer of Fobs/Swipes?</label>
+                      <div class="custom-select" style="margin-bottom: 1.5rem;"><select>
+<option value="0">Select Fobs/Swipes:</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+</select>     
+                      </div>
+                      <hr class="hr-style" style="margin-bottom: 1.5rem;margin-top: 1.5rem"/>
+                      <h3 class="title-h2">VEHICLE REGISTRATION</h3>
+                      <p style="font-size: 12px;">You can only park vehicles in the parking space allocated to your unit. If you are unsure of the parking space number allocated to your unit, please click on the following to find out; <a class="item-link" href="http://motto.net.au/location-map/">http://motto.net.au/location-map/</a></p>
+                      <p style="font-size: 12px;">Residents must not park in the Visitors Parking. Click on the following for more information;<a class="item-link" href=" http://motto.net.au/procedures/visitor-parking/"> http://motto.net.au/procedures/visitor-parking/</a></p>
+                      <label>How Many Vehicles do you own </label>
+                      <div class="custom-select" style="margin-bottom: 1.5rem;"><select>
+<option value="0">Select Vehicles:</option>
+<option value="1">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+</select>
+                      </div>
+                      <hr class="hr-style" style="margin-bottom: 1.5rem;margin-top: 1.5rem"/>
+                      <h3 class="title-h2">PET REGISTRATION</h3>
+                      <p style="font-size: 12px;">Please enter any existing Pet details below </p>
+                      <p style="font-size: 12px;">NEW PET APPLICATION - Please click on the following to make an application to keep a Pet - http://motto.net.au/procedures/pets/<a class="item-link" href="http://motto.net.au/procedures/pets/"> http://motto.net.au/procedures/pets/ </a></p>
+                      <label>PET Do you have a Pet:</label>
+                      <div class="custom-select" style="margin-bottom: 1.5rem;"><select>
+<option value="0">Select If you have Pet:</option>
+<option value="1">Yes</option>
+<option value="2">No</option>
+</select>  
+                      </div>
+                      <label>Anything Else?</label>
+                      <textarea> </textarea>
+                    </div>
+                    <div class="col-md-12">
+                      <hr class="hr-style" style="margin-bottom: 1.5rem;margin-top: 1.5rem"/>
+                      <div class="d-flex justify-content-end"><button class="btn button">Submit</button></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.easeScroll.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/datapicker.css"/>
+    <script src="js/date.js"></script>
+    <script src="js/custom-select.js"></script>
+    <script>
+      $('[data-toggle="datepicker"]').datepicker();
+      $(document).ready(function() {
+      $("#number").keydown(function (e) {
+      // Allow: backspace, delete, tab, escape, enter and .
+      if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 110, 190]) !== -1 ||
+      // Allow: Ctrl/cmd+A
+      (e.keyCode == 65 && (e.ctrlKey === true || e.metaKey === true)) ||
+      // Allow: Ctrl/cmd+C
+      (e.keyCode == 67 && (e.ctrlKey === true || e.metaKey === true)) ||
+      // Allow: Ctrl/cmd+X
+      (e.keyCode == 88 && (e.ctrlKey === true || e.metaKey === true)) ||
+      // Allow: home, end, left, right
+      (e.keyCode >= 35 && e.keyCode <= 39)) {
+      // let it happen, don't do anything
+      return;
+      }
+      // Ensure that it is a number and stop the keypress
+      if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) && (e.keyCode < 96 || e.keyCode > 105)) {
+      e.preventDefault();
+      }
+      });
+      });
+    </script>
+  </body>
+</html>

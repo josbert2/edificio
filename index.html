@@ -1,0 +1,566 @@
+
+<html lang="es">
+  <head> 
+    <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="css/app.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
+    <link rel="stylesheet" href="https://ionicons.com/css/ionicons.min.css"/>
+    <!-- Librerias-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+    <title>Edificio</title>
+  </head>
+  <body class="app-js"> </body>
+  <header class="nav" id="nav">
+    <div class="nav-menu">
+      <ul id="menu-items">
+        <div class="menu-logo mr-auto">
+          <li class="logo"><a class="no-after" href="#home1" onclick="javascript:location.href='/..'"><img class="logo-nav" src="img/hotel.svg" alt=""/></a><a class="no-after" href="#home2" onclick="javascript:location.href='/..'">
+              <h2>Motto <br class="br"/>Apartments</h2></a>
+            <div class="btn-mobile ml-auto">
+              <div class="wrapper-menu">
+                <div class="line-menu half start"></div>
+                <div class="line-menu"></div>
+                <div class="line-menu half end"></div>
+              </div>
+            </div>
+          </li>
+          <nav class="menu">
+            <div class="menu__brand" style="background-image: url(http://windsor.themerex.net/wp-content/uploads/2016/07/bg_header.jpg)"><a href="#img">
+                <div class="logo-mm" style="background-image: url(http://windsor.themerex.net/wp-content/uploads/2016/07/bg_header.jpg);"></div></a></div>
+            <ul class="menu__list">
+              <li class="menu__item"><a class="menu__link" href="#home">Home</a></li>
+              <li class="menu__item"><a class="menu__link" href="#apartments">Apartament</a></li>
+              <li class="menu__item"><a class="menu__link" href="#management">Management</a></li>
+              <li class="menu__item"><a class="menu__link" href="#utilities">Utilities</a></li>
+              <li class="menu__item"><a class="menu__link" href="#producedures">Producedures</a></li>
+              <li class="menu__item"><a class="menu__link" href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="menu-li">
+          <li class="nav-item"><a class="draw" href="#home">Home</a></li>
+          <li class="nav-item"><a class="draw" href="#management">Management</a></li>
+          <li class="nav-item"><a class="draw" href="#emergency">Emergency Contact</a></li>
+          <li class="nav-item"><a class="draw" href="#faq" onclick="javascript:location.href='userful-forms.html'">By-law and useful forms</a></li>
+          <!--li.nav-itema(href="#contact").draw Contact
+          -->
+          <!--li.nav-itema(href="#register", onclick="javascript:location.href='register-resident.html'" ).draw Register 
+          -->
+        </div>
+      </ul>
+    </div>
+  </header>
+  <section class="hero" style="background-image: url(http://windsor.themerex.net/wp-content/uploads/2016/07/bg_header.jpg)">
+    <div class="content-big-text">
+      <div class="panel-border">
+        <h1>MOTTO APARTMENTS</h1>
+      </div>
+    </div>
+  </section>
+  <section class="whatis" id="home">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="title-h1 m-b-5">About Motto Apartments</h1>
+          <p>Completed in 2006, Motto was designed by award winning architects Allen Jack & Cottier who received an award for their design from the Urban Development Institute of Australia (UDIA), NSW Landcom Awards for Excellence. Motto is conveniently located 15 minutes drive from the CBD and a short walk to ErskinevilleTrain station. This website serves as a source for all current and prospective occupants to obtain building related information and news as well as improving communication between residents.</p>
+          <button class="btn button m-auto" data-modal="modalThree">View More</button>
+        </div>
+        <div class="col-md-6">
+          <div class="your-class">
+            <div class="card" style="background-image: url(https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260)"></div>
+            <div class="card" style="background-image: url(https://images.pexels.com/photos/323776/pexels-photo-323776.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260)"></div>
+            <div class="card" style="background-image: url(https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260)"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--include _includes/_section/_sectionApartments.pug-->
+  <section class="management" id="management">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="has-text-centered title-h1 justify-content-center">Management</h1>
+        </div>
+        <!--PANEL-->
+        <div class="col-md-3 flex-column d-flex justify-content-center">
+          <div class="card">
+            <h4>Contact details are as follows:</h4>
+            <div class="content-card">
+              <div class="item-flex"><i class="ion ion-md-business"></i><span>Maxine Wickey</span></div>
+              <div class="item-flex"><i class="ion ion-md-phone-portrait"></i><span>(02) 8198 8500</span></div>
+              <div class="item-flex"><i class="ion ion-md-call"></i><span>(02) 9319 1866</span></div>
+              <div class="item-flex"><i class="ion ion-md-mail"></i><span>maxine@strataplus.com.au</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 flex-column d-flex justify-content-center">
+          <h2 class="title-h2">Building Management</h2>
+          <ul class="document">
+            <li>The Building Manager is responsible for the day to day operations of the Motto Complex.</li>
+            <li>Building Management is provided by Building Management Headquarters Pty Ltd</li>
+            <li>Contact details as follows;</li>
+          </ul>
+        </div>
+        <div class="col-md-5">
+          <div class="content-border">
+            <figure class="img-border-two">
+              <div class="img-cont" style="background-image: url(https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260)"></div>
+            </figure>
+          </div>
+        </div>
+        <!--PANEL-->
+        <div class="col-md-5">
+          <div class="content-border">
+            <figure class="img-border-two">
+              <div class="img-cont" style="background-image: url(https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260)"></div>
+            </figure>
+          </div>
+        </div>
+        <div class="col-md-4 flex-column d-flex justify-content-center">
+          <h2 class="title-h2">Building Management</h2>
+          <ul class="document">
+            <li>The Building Manager is responsible for the day to day operations of the Motto Complex.</li>
+            <li>Building Management is provided by Building Management Headquarters Pty Ltd</li>
+            <li>Contact details as follows;</li>
+          </ul>
+        </div>
+        <div class="col-md-3 flex-column d-flex justify-content-center">
+          <div class="card">
+            <h4>Contact details are as follows:</h4>
+            <div class="content-card">
+              <div class="item-flex"><i class="ion ion-md-business"></i><span>Maxine Wickey</span></div>
+              <div class="item-flex"><i class="ion ion-md-phone-portrait"></i><span>(02) 8198 8500</span></div>
+              <div class="item-flex"><i class="ion ion-md-call"></i><span>(02) 9319 1866</span></div>
+              <div class="item-flex"><i class="ion ion-md-mail"></i><span>maxine@strataplus.com.au</span></div>
+            </div>
+          </div>
+        </div>
+        <!--PANEL-->
+        <div class="col-md-3 flex-column d-flex justify-content-center">
+          <div class="card">
+            <h4>Contact details are as follows:</h4>
+            <div class="content-card">
+              <div class="item-flex"><i class="ion ion-md-business"></i><span>Maxine Wickey</span></div>
+              <div class="item-flex"><i class="ion ion-md-phone-portrait"></i><span>(02) 8198 8500</span></div>
+              <div class="item-flex"><i class="ion ion-md-call"></i><span>(02) 9319 1866</span></div>
+              <div class="item-flex"><i class="ion ion-md-mail"></i><span>maxine@strataplus.com.au</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 flex-column d-flex justify-content-center">
+          <h2 class="title-h2">Building Management</h2>
+          <ul class="document">
+            <li>The Building Manager is responsible for the day to day operations of the Motto Complex.</li>
+            <li>Building Management is provided by Building Management Headquarters Pty Ltd</li>
+            <li>Contact details as follows;</li>
+          </ul>
+        </div>
+        <div class="col-md-5">
+          <div class="content-border">
+            <figure class="img-border-two">
+              <div class="img-cont" style="background-image: url(https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260)"></div>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--include _includes/_section/_sectionProcedures.pug-->
+  <section class="form" id="contact" style="background-image:url(img/bg-img-4.jpg)">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="has-text-centered title-h1 justify-content-center">Contact</h1>
+          <h5>Submit Task Request</h5>
+          <h5>Complete form and click send.</h5>
+        </div>
+        <div class="col-md-12">
+          <div class="content-form">
+            <div class="form">
+              <form>
+                <div class="row">
+                  <div class="col-md-6">
+                    <label>Your Name</label>
+                    <input type="text"/>
+                  </div>
+                  <div class="col-md-6">
+                    <label>Your Email</label>
+                    <input type="email"/>
+                  </div>
+                  <div class="col-md-12">
+                    <label>Subject</label>
+                    <input type="text"/>
+                  </div>
+                  <div class="col-md-12">
+                    <label>Phone</label>
+                    <input type="text"/>
+                  </div>
+                  <div class="col-md-12">
+                    <label>Address</label>
+                    <input type="text"/>
+                  </div>
+                  <div class="col-md-12">
+                    <label>Message</label>
+                    <textarea></textarea>
+                  </div>
+                </div><hr class="hr-style" style="margin-bottom: 1.5rem;margin-top: 1.5rem">
+                <div class="d-flex justify-content-end">
+                  <button class="link-button">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="utilities" id="utilities" style="background-image: url(http://windsor.themerex.net/wp-content/uploads/2016/07/bg_header.jpg)">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="has-text-centered title-h1 justify-content-center">Utilities</h1>
+          <h5>Connecting your Gas, Electricity, or Phone and Internet</h5>
+          <div class="d-flex justify-content-center"><a class="link-button" href="utilities.html">Check Utilities</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="footer">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 has-text-centered">
+          <h3>
+            <div class="justify-md-center has-text-centered">Motto Apartments</div>
+          </h3>
+          <p class="text-align-center">Completed in 2006, Motto was designed by award winning architects Allen Jack & Cottier who received an award for their design from the Urban Development Institute of Australia (UDIA),</p>
+          <ul class="d-flex justify-content-center">
+            <li><i class="ion ion-logo-facebook icon-6"></i></li>
+            <li><i class="ion ion-logo-twitter icon-6"></i></li>
+            <li><i class="ion ion-logo-instagram icon-6"></i></li>
+          </ul>
+        </div>
+        <div class="col-md-4 has-text-centered">
+          <h3 class="justify-md-center has-text-centered" id="emergency">Emergency Contact</h3>
+          <ul>
+            <li class="d-flex align-items-center"><i class="ion ion-md-cellular"></i>
+              <div class="footer-emergy"><span class="title-span">Emergency – Ambulance, Fire Brigade, Police</span></div>
+            </li>
+            <li class="d-flex align-items-center"><i class="ion ion-md-cellular"></i>
+              <div class="footer-emergy"><span class="title-span">Lorem lorem lorem</span></div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 has-text-centered">
+          <h3 class="justify-md-center has-text-centered">Link Pages</h3>
+          <ul>
+            <li class="d-flex align-items-center"><i class="ion ion-md-cellular"></i>
+              <div class="footer-emergy"><span class="title-span"><a href="">Home</a></span></div>
+            </li>
+            <li class="d-flex align-items-center"><i class="ion ion-md-cellular"></i>
+              <div class="footer-emergy"><span class="title-span"><a href="#by" onclick="javascript:location.href='userful-forms.html'">By-law Userful forms</a></span></div>
+            </li>
+          </ul>
+        </div>
+        <!--.col-md-3
+        h3.title-h2 Emergency Contacts
+        ul
+          li.d-flex.align-items-center
+            i.ion.ion-md-cellular
+            .footer-emergy
+              span.title-span
+                | Emergency – Ambulance, Fire Brigade, Police
+          li.d-flex.align-items-center
+            i.ion.ion-md-cellular
+            .footer-emergy
+              span.title-span
+                | Police Station (nearest)
+              span
+                | Newtown Local Area Command – T: (02) 9550 8199
+          li.d-flex.align-items-center
+            i.ion.ion-md-cellular
+            .footer-emergy
+              span.title-span
+                | State Emergency Service
+              span
+                | T: 132 500
+          li.d-flex.align-items-center
+            i.ion.ion-md-cellular
+            .footer-emergy
+              span.title-span
+                | Sydney Water (Service Difficulties & Emergencies)
+              span
+                | T: 13 20 90
+          li.d-flex.align-items-center
+            i.ion.ion-md-cellular
+            .footer-emergy
+              span.title-span
+                | Energy Australia (Emergency Loss of Power)
+              span
+                | T: 13 13 88
+        -->
+        <!--.col-md-3
+        h3.title-h2 Building Contacts
+        ul
+          li.d-flex.align-items-center
+            i.ion.ion-md-cellular
+            .footer-emergy
+              span.title-span
+                | Building Management Headquarters Pty Ltd
+          li.d-flex.align-items-center
+            i.ion.ion-md-cellular
+            .footer-emergy
+              span.title-span
+                | George Candi – Building Manager
+          li.d-flex.align-items-center
+            i.ion.ion-md-cellular
+            .footer-emergy
+              span.title-span
+                | Monday – Friday – 12:00pm-3:00pm
+          li.d-flex.align-items-center
+            i.ion.ion-md-cellular
+            .footer-emergy
+              span.title-span
+                | Non urgent enquiries can be made via email to bm@motto.net.au
+          li.d-flex.align-items-center
+            i.ion.ion-md-cellular
+            .footer-emergy
+              span.title-span
+                | M 0420 300 153 
+          li.d-flex.align-items-center
+            i.ion.ion-md-cellular
+            .footer-emergy
+              span.title-span
+                | T 02 9516 0743
+          li.d-flex.align-items-center
+            i.ion.ion-md-cellular
+            .footer-emergy
+              span.title-span
+                | E bm@motto.net.au
+        -->
+        <!--.col-md-3
+        h3.title-h2 Section Content
+        ul
+          li.d-flex.align-items-center
+            i.ion.ion-md-cellular
+            .footer-emergy
+              span.title-span
+                a(href="#home") Home
+          li.d-flex.align-items-center
+            i.ion.ion-md-cellular
+            .footer-emergy
+              span.title-span
+                a(href="#apartments") Apartments
+          li.d-flex.align-items-center
+            i.ion.ion-md-cellular
+            .footer-emergy
+              span.title-span
+                a(href="#management") Management
+          li.d-flex.align-items-center
+            i.ion.ion-md-cellular
+            .footer-emergy
+              span.title-span
+                a(href="#utilities") Utilities
+          li.d-flex.align-items-center
+            i.ion.ion-md-cellular
+            .footer-emergy
+              span.title-span
+                a(href="#producedures") Producedures
+          li.d-flex.align-items-center
+            i.ion.ion-md-cellular
+            .footer-emergy
+              span.title-span
+                a(href="#contact") Contact
+        
+        
+        -->
+      </div>
+      <div class="sub-footer">
+        <hr class="hr-style"/>
+        <div class="content-sub-footer d-flex justify-content-between"><span>Copyright © 2018 </span><span class="w700">Motto Apartment</span><span>Design By <i class="ion ion-md-heart-half"></i></span></div>
+      </div>
+    </div>
+  </section>
+  <!--Modals-->
+  <div id="modalThree">
+    <div class="modal">
+      <div class="more">
+        <div class="half-content is-firts">
+          <div class="content-text">
+            <div class="texts">
+              <div class="auto-y">
+                <div class="content-description">
+                  <h2 class="title-h2">Motto Apartments</h2>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo fugit, ut nam fugiat id quae voluptate, maiores explicabo eaque rem accusamus asperiores repellat sed eum sint quis delectus, eligendi unde!</p>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo fugit, ut nam fugiat id quae voluptate, maiores explicabo eaque rem accusamus asperiores repellat sed eum sint quis delectus, eligendi unde!</p>
+                </div>
+              </div>
+              <!--div.auto-y
+              .content-description
+                h2.title-h2 Architecture
+              
+                p Motto was designed by Award Winning Architects Allen Jack & Cottier
+              
+                p A high quality residential development located in Erskineville, Motto consists of 155 apartments, basement parking and a café. A swimming pool and publicly accessible gardens are provided within a generous courtyard space.
+              
+                p The project was integrated with South Sydney Council’s precinct masterplan, which enabled the proposal of extensive improvements to the public domain, including street widening and realignment, street planting, paving, lighting, underground power, the relocation of an existing mobile phone tower, stormwater improvements and the provision of a hierarchy of public spaces and connections across the site. These improvements have been coordinated with adjacent developments to provide a consistent streetscape throughout the area.
+              
+                p Motto reiterates the high level of amenity that arises from good architecture and sound urban design principles including good solar access and cross-ventilation, a strong feeling of ‘community’ and security through a high level of passive surveillance, visual and acoustic privacy, and strong connectivity between indoor and outdoor living spaces.
+              
+                p http://www.architectsajc.com/projects/architecture/motto/
+              -->
+              <!--div.auto-y
+              .content-description
+                h2.title-h2 Design Awards
+                p In 2006 Allen Jack & Cottier Architects Motto design won the Urban Development Institute of Australia (UDIA), NSW Landcom Awards for Excellence– Urban Renewal.
+              
+                p UDIA Judges described Motto as “a model for future development”, contributing significantly to the urban renewal of Erskineville. The apartments harness cross-ventilation to provide a high level of comfort without resorting to air-conditioning, and are well lit by natural means to reduce energy consumption.
+                
+                h2.title-h2 Articles
+                .row
+                  .col-md-12.d-flex-j-a
+                    a(href="http://motto.net.au/wp-content/uploads/2011/01/Motto-Wins-Award.pdf").description-btn.d-flex.align-items-center.justify-content-center
+                     i.ion.ion-md-link
+                     span.m-l-20 Motto Wins Award
+                  .col-md-12.d-flex-j-a
+                    a(href="http://www.architectsajc.com/news/news-media/awards-highlight-allen-jackcottiers-role-as-design-pioneers-2").description-btn.d-flex.align-items-center.justify-content-center
+                     i.ion.ion-md-link
+                     span.m-l-20 awards-highlight-allen-jackcottiers
+              -->
+              <!--div.auto-y
+              .content-description
+                h2.title-h2 Management
+                p There are four groups involved in the <a href="#" class="item-link">management</a> of the Motto Apartments which are the Executive Committee of the Owners Corporation, Building Management, Strata Management and local Real Estate Agents managing the individual rental properties.
+              -->
+              <!--div.auto-y
+              .content-description
+                h2.title-h2 Transport
+                p Distance to Sydney CBD – just under 5km or 15 minutes drive.
+              
+                p Train – Approximately 750 meters to Erskineville Train Station.
+              
+                p Bus – Walking distance to bust stops. Download Sydney Buses <a href="#" class="item-link">Eastern Region Network Map</a> to view local bus routes or download the <a href="#" class="item-link">Eastern Region Network</a> Guide for more information.  Alternatively, go to <a href="#" class="item-link">www.131500.com.au</a> to plan your trip.
+                p Airport – 10 Minute drive or catch the train to the domestic and International Airports.
+              -->
+              <!--div.auto-y
+              .content-description
+                h2.title-h2 Ashmore Precinct
+                p Motto is located withing the Ashmore Precinct which is one of the City of Sydney’s biggest urban development projects.
+              
+                p Located in Erskineville and on the border of Alexandria , the 17-hectare site will be a new residential neighbourhood with local shops, cafés and a small supermarket.
+              
+                p The site is bounded by Ashmore Street, Mitchell Road, Coulson Street and the Bankstown rail line.
+              
+                p The redevelopment will create new streets, some with separated bicycle lanes, a large central park and systems to manage stormwater. Terraces, apartments, and live-work accommodation will be developed to help meet the housing needs of 21st century living.
+              
+                p The City is committed to working with the community to ensure the future development of the Ashmore precinct is sustainable, respects the character of surrounding suburbs, and is supported by new transport options and services such as child care.
+              
+              -->
+            </div>
+            <div class="close-contact"><span></span><span></span></div>
+          </div>
+        </div>
+        <div class="half-content is-second">
+          <div class="content-img" style="background-image: url(https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260)"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--include _includes/_tmp/_buildingcontactModal.pug-->
+  <!--Content-->
+  <!--include _includes/_tmp/_aircondiModal.pug-->
+  <!--include _includes/_tmp/_balconyModal.pug-->
+  <!--include _includes/_tmp/_proceduresModal.pug--><a class="go-top expand" href="#">
+<i class="ion ion-md-arrow-dropup"></i>
+</a>
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.easeScroll.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="js/script.js"></script>
+  <script>
+    var lastId,
+    topMenu = $("#menu-items"),
+    topMenuHeight = topMenu.outerHeight()+15,
+    // All list items
+    menuItems = topMenu.find("a"),
+    // Anchors corresponding to menu items
+    scrollItems = menuItems.map(function(){
+      var item = $($(this).attr("href"));
+      if (item.length) { return item; }
+    }),
+    noScrollAction = false;
+    
+    
+    
+    // Bind click handler to menu items
+    // so we can get a fancy scroll animation
+    menuItems.click(function(e){
+    var href = $(this).attr("href"),
+    offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
+    noScrollAction = true;
+    $('html, body').stop().animate({ 
+    scrollTop: offsetTop
+    },{
+    duration: 300,
+    complete: function() {
+    menuItems
+    .parent().removeClass("active")
+    .end().filter("[href=" + href +"]").parent().addClass("active");
+    setTimeout(function(){ noScrollAction = false; }, 10);
+    
+    }
+    });
+    e.preventDefault();
+    })
+    
+    $(window).scroll(function(){
+    if(!noScrollAction){
+         // Get container scroll position
+    var fromTop = $(this).scrollTop()+topMenuHeight;
+    
+         // Get id of current scroll item
+    var scroll = $(window).scrollTop();
+    console.log(scroll)
+      if ($(window).width() < 950 && $(window).width() > 768){
+        if (scroll > 2030 && scroll < 3160){
+            $('.go-top').addClass('blank')
+        }else{
+           $('.go-top').removeClass('blank')
+        }
+      }else if($(window).width() < 768 && $(window).width() > 320){
+        if (scroll > 3602 && scroll < 4820){
+            $('.go-top').addClass('blank')
+        }else{
+           $('.go-top').removeClass('blank')
+        }
+      }else{
+        if (scroll > 2300 && scroll < 3400){
+            $('.go-top').addClass('blank')
+        }else{
+           $('.go-top').removeClass('blank')
+        }
+      }
+      
+    var cur = scrollItems.map(function(){
+    if ($(this).offset().top < fromTop)
+    return this;
+    });
+         // Get the id of the current element
+    cur = cur[cur.length-1];
+    var id = cur && cur.length ? cur[0].id : "";
+    
+    if (lastId !== id) {
+    lastId = id;
+             // Set/remove active class
+    
+    menuItems
+    .parent().removeClass("active")
+    .end().filter("[href=#"+id+"]").parent().addClass("active");
+    }
+    }  
+    })
+  </script>
+</html>
